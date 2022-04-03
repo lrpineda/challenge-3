@@ -1,4 +1,5 @@
 // Setting the type of characters
+//Alphabet
 var alphabet = [
   "a",
   "b",
@@ -27,6 +28,7 @@ var alphabet = [
   "y",
   "z",
 ];
+// Special characters
 var special = [
   " ",
   "!",
@@ -63,15 +65,19 @@ var special = [
   "~",
   '"',
 ];
+// Numbers 
 var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
+// Generate password fuction
 var generatePassword = function () {
+  // Promt user to set the lenght of the password
   var getLength = function () {
     var theLength = parseInt(
       prompt(
         "Choose the password's length, it has to be at least 8 characters and no more than 128 characters"
       )
     );
+    // If the user t
     while (isNaN(theLength) || theLength < 8 || theLength > 128) {
       window.alert("Length needs to be between 8 and 128 characters");
       theLength = parseInt(
