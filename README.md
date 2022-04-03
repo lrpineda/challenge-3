@@ -10,3 +10,4 @@ For this challenge, I decided to ask the user for the criteria they want after t
 The user, however, can select if they want uppercase values combined with lowercase or all of them uppercase.
 
 ## Screenshot
+<img width="1920" alt="Screen shot" src="Screen Shot.png" />
